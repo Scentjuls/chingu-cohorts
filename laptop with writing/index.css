@@ -1,0 +1,247 @@
+body {
+    background:  #ffdb58 ;
+    }
+.head {
+	margin: 5% auto 0 4%;
+	display: block;
+	width: 550px;
+	height: 300px;
+    background: none;
+
+}
+.rectangle {
+    position: absolute;
+	width: 25%;
+	height: 28%;
+	background: #fff;
+	top: 17.3%;
+    left: 10%;
+    border: 10px solid #000;
+    border-radius: 4px;
+}
+.text {
+    font-size:35px;
+    padding:10px 50px;
+    font-family: 'Lobster', cursive;
+}
+.rectangle2{
+    position:absolute;
+    width:37%;
+    height:2.5%;
+    background: #BDBEBA;
+    top:48%;
+    left:5%;
+}
+.rectangle2-1 {
+    position: absolute;
+    width: 10%;
+    height:30%;
+    background: #888B87;
+    left:45%;
+    top: 15%    
+}
+.rectangle3{
+    position:absolute;
+    width:37%;
+    height:1.5%;
+    background: #888B87;
+    top:50.5%;
+    left:5%;
+    border-radius:0px 0px 20px 20px;
+}
+
+.square {
+    position: absolute;
+	width: 21%;
+	height: 90%;
+	background: #000;
+	top: 3%;
+    right: 10%;
+    border-radius: 20px;
+}
+.box1 {
+    position:absolute;
+    width:91.5%;
+    height: 74%;
+    background:#fff;
+    top:15%;
+    right:4.5%;
+    z-index: 1;
+}
+.big-circle {
+    position: absolute;
+    width:5.5%;
+    height:2.5%;
+    background:#fff;
+    top:3.5%;
+    left:46%;
+    border-radius: 100%;
+    z-index: 1;
+}
+.small-circle {
+    position: absolute;
+    width:2.5%;
+    height:1%;
+    background:#fff;
+    top:10%;
+    left:30%;
+    border-radius: 100%;
+    z-index: 1;
+}
+.long-line {
+    position:absolute;
+    width: 20%;
+    height:1.5%;
+    background:#fff;
+    left: 40%;
+    top: 9.9%;
+    border-radius:3px;
+    z-index:1;
+}
+.border-circle {
+    position: absolute;
+    width:20%;
+    height:9%;
+    background:#000;
+    bottom: 0.5%;
+    z-index:1;
+    left:42%;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+.box-circle {
+    position: absolute;
+    width:50%;
+    height:45%;
+    background: #000;
+    left:22%;
+    top:25%;
+    border-radius:5px;
+    border: 1px solid #fff;
+}
+.inside-text1{
+    position:absolute;
+    left:40%;
+    top:0%;
+    font-size: 10px;
+    font-weight: bold;
+}
+.inside-text2 {
+    position:absolute;
+    left:30%;
+    top:4%;
+    font-size:18px;
+    font-weight: bold;
+}
+.yellow {
+    position:absolute;
+    width:90%;
+    height:17%;
+    background:#ffdb58;
+    left:5%;
+    top: 16%;
+}
+.clown-body {
+    position:absolute;
+    top:60%;
+    left:5%;
+    width:30%;
+    height:60%;
+    background:none;
+}
+.clown {
+    position:absolute;
+    top: 10%;
+    width:50%;
+    height:50%;
+    border-radius:50%;
+    background:grey;
+    left:10%;
+}
+.clown-copy {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: grey;
+    border-radius:50%;
+    z-index:2;
+    border:2px solid #000;
+}
+.left-ear {
+    position:absolute;
+    width: 60%;
+    height:60%;
+    background:grey;
+    z-index:1;
+    border-radius:50%;
+    left:-20%;
+    top:13%;
+    border:2px solid #000;
+
+}
+.right-ear {
+    position:absolute;
+    width: 60%;
+    height:60%;
+    background:grey;
+    z-index:1;
+    border-radius:50%;
+    right:-20%;
+    top:13%;
+    border:2px solid #000;
+}
+.inner-ear {
+    position:absolute;
+    width:80%;
+    height:80%;
+    background:pink;
+    z-index: 1;
+    top:10%;
+    left:10%;
+    border-radius:50%;
+    border:2px solid #000;
+}
+.left-eye {
+    position:absolute;
+    top:30%;
+    width:20%;
+    height:20%;
+    border-radius:50%;
+    background:#fff;
+    left:25%;
+    z-index:3;
+}
+.right-eye {
+    position:absolute;
+    top:30%;
+    width:20%;
+    height:20%;
+    border-radius:50%;
+    background:#fff;
+    right:20%;
+    z-index:3;
+}
+.pupil {
+    position:absolute;
+    top:30%;
+    width:20%;
+    height:20%;
+    border-radius:50%;
+    background:#000;
+    }
+    .trunk {
+    z-index: 6;
+    width: 40%;
+    height: 70%;
+    border-top: 50px;
+    border: 2px solid #000;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 42px;
+    background: grey;
+    background-repeat: repeat;
+    position: absolute;
+    top: 53%;
+    left: 32.5%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 15% 100%);
+
+}
